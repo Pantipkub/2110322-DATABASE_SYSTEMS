@@ -1,0 +1,4 @@
+SELECT POSTAL_CODE, COUNT(*) AS customer_numbers
+FROM CUSTOMER
+GROUP BY POSTAL_CODE
+ORDER BY customer_numbers DESC;
